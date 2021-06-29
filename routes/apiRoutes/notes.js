@@ -15,11 +15,11 @@ router.get('/notes', (req, res) => {
 router.post('/notes',(req, res) => {
   if(req.body) {
     // check the last object's id
-    let lastId = db[db.length-1].id;
+    
+    let lastId = db.length !== 0 ? db[db.length-1].id : 0;
     //Apply the id into the object
     req.body.id = lastId + 1 ;
 
-    console.log(db);
     const note = createNewNote(req.body, db);
     res.json(note);
   }
