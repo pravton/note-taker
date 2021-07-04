@@ -2,6 +2,7 @@ const router = require('express').Router();
 const db = require('../../db/db.json');
 const {createNewNote, deleteNotes} = require('../../lib/notes');
 
+// Get route for notes end point
 router.get('/notes', (req, res) => {
   let results = db;
 
@@ -12,6 +13,7 @@ router.get('/notes', (req, res) => {
   }
 });
 
+// Post route for notes end point
 router.post('/notes',(req, res) => {
   if(req.body) {
     // check the last object's id
@@ -25,6 +27,7 @@ router.post('/notes',(req, res) => {
   }
 });
 
+// Delete a note by specific id
 router.delete('/notes/:id',(req, res) => {
   const id = req.params.id;
 
@@ -35,5 +38,5 @@ router.delete('/notes/:id',(req, res) => {
   res.json(notes);
 });
 
-
+// Export router
 module.exports = router;

@@ -1,7 +1,17 @@
 [
   {
-    "title": "Test Notes",
-    "text": "This is a test note!",
-    "id": 1
+    "title": "Note test",
+    "text": "This is a test note",
+    "id": 2
+  },
+  {
+    "title": "My Notes Test",
+    "text": "Test mt notes",
+    "id": 3
+  },
+  {
+    "title": "New note",
+    "text": "Majahsjahs=ajklsjkajskajsasljalsjalsjkaljslj",
+    "id": 4
   }
 ]
