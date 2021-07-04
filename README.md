@@ -9,7 +9,7 @@ Note Taker that can be used to write and save notes. This application use an Exp
 
 
 - [Usage](#%EF%B8%8F-usage)
-- [Final Product Link](#%EF%B8%8F-final-product-link)
+- [Final Product Link](#-final-product-link)
 - [Final Output GIF](#%EF%B8%8F-final-output-gif)
 - [License](#-license)
 - [Contributing](#-contributing)
