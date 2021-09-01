@@ -22,7 +22,7 @@ Note Taker that can be used to write and save notes. This application use an Exp
 You can use the app with the live URL or you can clone the repo and use the app as you fit.
 
 ## 🌐 Final Product Link
-[**Click Here**](https://beautiful-kenai-fjords-04468.herokuapp.com/) to view the project in Github Pages.
+[**Click Here**](https://beautiful-kenai-fjords-04468.herokuapp.com/) to view the project.
 
 
 ## ▶️ Final Output GIF
